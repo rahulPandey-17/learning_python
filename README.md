@@ -1,5 +1,3 @@
-# learning_python
-
 # Learning Python
 
 Welcome to my **Python Learning Repository**! This repository is a personal journey documenting my progress in learning the Python programming language.
