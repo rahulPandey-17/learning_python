@@ -1,27 +1,12 @@
-name = "Rahul Pandey"
-print("Hey, " + name)
+# docstrings
 
-print('Rahul codes in "C++" and "Python"\n')
+def square(num) :
 
-# Multi-line string
+    '''Takes a number and squares it'''
+    return num ** 2
 
-print("""The random. choice() function is used in the python string to generate the sequence of characters and digits that can repeat the string in any order. Create a program to generate a random string using the random. choices() function.""")
+num = int(input("Enter the number : "))
+print(square(num))
 
-# Since string is a sequence of characters we can access individual characters of the string via indices
-
-print("\nAccessing the string via indices :")
-
-string = "Python"
-
-# print(string[0], end = "")
-# print(string[1], end = "")
-# print(string[2], end = "")
-# print(string[3], end = "")
-# print(string[4], end = "")
-# print(string[5], end = "\n")
-
-# we can also print the above string using for loop, also it's recommended that way as is it cleaner and efficient for long strings
-
-for character in string :
-    print(character, end = "")
-print()
+# we can print the docstrings, it is not like comments python treats docstrings differently
+print(square.__doc__)
